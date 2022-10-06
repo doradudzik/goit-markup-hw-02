@@ -1,0 +1,163 @@
+:root {
+    --brand-color: #2196F3;
+    --brand-color-2: #2F303A;
+}
+
+body {
+    font-family: 'Roboto', 'Raleway', sans-serif;
+    color: #212121;
+}
+
+header {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.19;
+}
+
+.buttons-portfolio {
+    cursor: pointer;
+    background-color: #F5F4FA;
+    border: 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.62;
+    color: #000000;
+}
+
+.buttons-portfolio:hover {
+    color: #FFFFFF;
+    background-color: var(--brand-color);
+}
+
+.button-main-page {
+    cursor: pointer;
+    background-color: var(--brand-color);
+    border: 0;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.87;
+    color: #FFFFFF;
+}
+
+.nav-list .link,
+.nav-list .link-portfolio,
+.nav-list .link-agency {
+    color: #212121;
+    text-decoration: none;
+}
+
+.nav-list .link-portfolio,
+.nav-list .link-agency {
+    color: var(--brand-color);
+}
+
+.nav-list .link:hover,
+.nav-list .link:focus,
+.nav-list .link-portfolio:hover,
+.nav-list .link-portfolio:focus,
+.nav-list .link-agency:hover,
+.nav-list .link-agency:focus,
+.contact-links .link:hover,
+.contact-links .link:focus {
+    color: var(--brand-color);
+}
+
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+    color: #000000;
+}
+
+.logo .blue {
+    color: var(--brand-color);
+}
+
+.footer-section>.logo {
+    color: #FFFFFF;
+}
+
+.contact-links .link {
+    text-decoration: none;
+    color: #757575;
+}
+
+.contact-links .link-1 {
+    text-decoration: underline;
+}
+
+.order-service {
+    background-color: var(--brand-color-2);
+}
+
+.header-main {
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+    color: #FFFFFF;
+}
+
+.header-secondary {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    color: #212121
+}
+
+.description-section h4 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    color: #212121
+}
+
+.description-section {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14;
+    color: #757575;
+}
+
+.team-member {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    color: #212121;
+}
+
+.job-position {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    color: #757575;
+}
+
+.picture-description {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    color: #212121;
+}
+
+.picture-description-secondary {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #757575;
+}
+
+.footer-section {
+    background-color: var(--brand-color-2);
+    color: #FFFFFF;
+}
+
+.footer-section [href="mailto:info@example.com"],
+.footer-section [href="+48111111111"] {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+address {
+    font-style: normal;
+}
